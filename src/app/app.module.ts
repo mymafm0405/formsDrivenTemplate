@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { NewFormComponent } from './new-form/new-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewFormComponent
   ],
   imports: [
     BrowserModule,
